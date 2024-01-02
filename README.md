@@ -20,7 +20,7 @@ This project is a Wikipedia Loop Checker that allows users to input a Wikipedia 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/your-username/wiki-loop-checker.git
     cd your-repo
     ```
 
@@ -28,7 +28,7 @@ This project is a Wikipedia Loop Checker that allows users to input a Wikipedia 
 
     ```bash
     # Install client dependencies
-    cd your-repo
+    cd wiki-loop-checker
     npm install
     ```
 
@@ -42,6 +42,14 @@ This project is a Wikipedia Loop Checker that allows users to input a Wikipedia 
 
 
 ## FRONTEND
+
+![image](https://github.com/kanishak11-cyber/wiki-loop-checker/assets/84625838/799b1afa-333d-4307-9183-df805c1c4e8a)
+
+## RESULT
+
+![image](https://github.com/kanishak11-cyber/wiki-loop-checker/assets/84625838/df8b04d6-b959-40b3-94b0-e86d179e3d6d)
+
+
 
 
 
