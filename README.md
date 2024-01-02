@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wikipedia Loop Checker
 
-## Getting Started
+This project is a Wikipedia Loop Checker that allows users to input a Wikipedia URL and check how many requests are required to reach the "Philosophy" page by navigating through the first link in the main body text of each Wikipedia page.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Input a Wikipedia URL and check the loop.
+- Record each visited page and count the number of requests made until reaching the "Philosophy" page.
+- Display the number of requests and a list of visited Wikipedia pages.
+
+## Tech Stack
+
+- **Frontend**: React
+- **HTTP Client**: Axios
+- **Web Scraping**: Cheerio
+- **Loading Spinner**: React-Loader-Spinner
+
+## Setup
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
+
+2. **Install Dependencies:**
+
+    ```bash
+    # Install client dependencies
+    cd your-repo
+    npm install
+    ```
+
+3. **Run the Application:**
+
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+
+## FRONTEND
+
+
+
+### File Structure
+
+```
+├── app
+│   ├── api
+│   │   ├── wikicheck
+│   │   │   ├── route.js
+│   │   ├── favicon.ico
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   ├── global.css
+│   ├── public
+│   ├── .gitignore
+│   ├── jsconfig.json
+│   ├── next.config.js
+│   ├── package.json
+│   ├── README.md
+│   ├── package-lock.json
+│   ├── tailwind.config.js
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Enter a valid Wikipedia URL in the input field.
+2. Click the "Check Loop" button to initiate the loop check.
+3. View the results, including the total number of requests and a list of visited pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
