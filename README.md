@@ -60,18 +60,18 @@ This project is a Wikipedia Loop Checker that allows users to input a Wikipedia 
 │   ├── api
 │   │   ├── wikicheck
 │   │   │   ├── route.js
-│   │   ├── favicon.ico
-│   │   ├── layout.js
-│   │   ├── page.js
-│   │   ├── global.css
-│   ├── public
-│   ├── .gitignore
-│   ├── jsconfig.json
-│   ├── next.config.js
-│   ├── package.json
-│   ├── README.md
-│   ├── package-lock.json
-│   ├── tailwind.config.js
+│   ├── favicon.ico
+│   ├── layout.js
+│   ├── page.js
+│   ├── global.css
+├── public
+├── .gitignore
+├── jsconfig.json
+├── next.config.js
+├── package.json
+├── README.md
+├── package-lock.json
+├── tailwind.config.js
 
 ```
 
